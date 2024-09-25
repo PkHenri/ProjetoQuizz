@@ -1,2 +1,2 @@
 # ProjetoQuizz
- Projeto desenvolvido em grupo no meu primeiro ano no curso de informática da ETEC.
+ Projeto de um quizz sobre astrologia desenvolvido no meu primeiro ano de estudo na ETEC.
