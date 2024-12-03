@@ -30,11 +30,11 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Quizz Game");
-        setMaximumSize(new java.awt.Dimension(900, 600));
-        setMinimumSize(new java.awt.Dimension(900, 600));
+        setMaximumSize(new java.awt.Dimension(1324, 768));
+        setMinimumSize(new java.awt.Dimension(1324, 768));
         setName("JframeTelaPrincipal"); // NOI18N
         setResizable(false);
-        setSize(new java.awt.Dimension(900, 600));
+        setSize(new java.awt.Dimension(1324, 768));
 
         JpPrincipal.setBackground(new java.awt.Color(0, 153, 204));
         JpPrincipal.setMaximumSize(new java.awt.Dimension(900, 600));

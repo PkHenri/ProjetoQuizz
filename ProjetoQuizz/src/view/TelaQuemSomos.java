@@ -48,17 +48,17 @@ public class TelaQuemSomos extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("TelaQuemSomos");
-        setMaximumSize(new java.awt.Dimension(900, 600));
-        setMinimumSize(new java.awt.Dimension(900, 600));
+        setMaximumSize(new java.awt.Dimension(1324, 768));
+        setMinimumSize(new java.awt.Dimension(1324, 768));
         setName("JfQuemSomos"); // NOI18N
+        setPreferredSize(new java.awt.Dimension(1324, 768));
         setResizable(false);
-        setSize(new java.awt.Dimension(900, 600));
+        setSize(new java.awt.Dimension(1324, 768));
 
         jPanel1.setBackground(new java.awt.Color(102, 204, 255));
         jPanel1.setMaximumSize(null);
-        jPanel1.setMinimumSize(null);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/NomeQuizz1.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/NomeQuizz.png"))); // NOI18N
 
         jLabel2.setText("Foto 1");
 
@@ -112,12 +112,12 @@ public class TelaQuemSomos extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel7)
                         .addGap(18, 18, 18)
-                        .addComponent(jLabel8)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
+                        .addComponent(jLabel8))
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 320, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 330, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 330, javax.swing.GroupLayout.PREFERRED_SIZE)
